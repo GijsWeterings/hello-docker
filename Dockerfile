@@ -1,6 +1,7 @@
 FROM registry2.kubernetes.gijsweterings.nl/library/alpine:3.8
 
-ADD src/ .
+#ADD src/ .
+COPY test.txt .
 RUN echo "Hi"
 #RUN cp origin.sh destination.sh
 
