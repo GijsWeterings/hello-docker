@@ -5,5 +5,5 @@ COPY test.txt .
 RUN echo "Hi"
 #RUN cp origin.sh destination.sh
 
-ENTRYPOINT ["/bin/sh"]
+#ENTRYPOINT ["/bin/sh"]
 #CMD ["./destination.sh"]
